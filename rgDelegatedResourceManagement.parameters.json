@@ -1,0 +1,53 @@
+{
+
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+
+    "contentVersion": "1.0.0.0",
+
+    "parameters": {
+
+        "mspOfferName": {
+
+            "value": "Kyos MSP"
+
+        },
+
+        "rgName": {
+
+            "value": "test"
+
+        },
+
+        "mspOfferDescription": {
+
+            "value": "Kyos Managed Services"
+
+        },
+
+        "managedByTenantId": {
+
+            "value": "89f14649-b599-4baf-a642-e67ceb53f5de"
+
+        },
+
+        "authorizations": {
+
+            "value": [
+
+                { 
+
+                    "principalId": "d411e643-e6e8-4574-a118-79e4a71f2241", 
+
+                    "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+
+                    "principalIdDisplayName": "DRM Test Group" 
+
+                } 
+
+            ]
+
+        }
+
+    }
+
+}
